@@ -7,9 +7,12 @@ docker-compose down # down
 
 ### Test
 ```sh
-# served html with php by nginx server
+# served html, php by nginx server
 curl http://localhost
 curl http://localhost/index.php
+
+# served html by nodejs server
+curl http://localhost/nodeapp
 
 # served html by go web server
 curl http://localhost/echo
