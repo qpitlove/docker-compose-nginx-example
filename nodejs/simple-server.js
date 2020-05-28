@@ -9,4 +9,5 @@ var server = app.listen(port, function () {
 
 app.get('/', function (req, res) {
     res.send(`Server uuid=${uuid} Responsed`);
+    console.log(`Server uuid=${uuid} Responsed`);
 });
