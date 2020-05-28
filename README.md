@@ -7,11 +7,11 @@ docker-compose down # down
 
 ### Test
 ```sh
-# seved html with php by nginx server
+# served html with php by nginx server
 curl http://localhost
 curl http://localhost/index.php
 
-# seved html by go web server
+# served html by go web server
 curl http://localhost/echo
 ```
 
