@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_tutorial_server",
+  "version": "0.0.4",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "NodeJS Tutorial Server",
+  "author": {
+    "name": "WonwooKang"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
