@@ -19,4 +19,4 @@ RUN npm install
 ENV NODE_ENV=production
 
 #서버실행
-CMD node server.js
+CMD ["npm", "start"]
