@@ -12,7 +12,7 @@ curl http://localhost
 curl http://localhost/index.php
 
 # served html by nodejs server
-curl http://localhost/nodeapp
+curl http://localhost/node
 
 # served html by go web server
 curl http://localhost/echo
