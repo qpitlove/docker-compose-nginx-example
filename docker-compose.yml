@@ -26,15 +26,15 @@ services:
       context: nodejs
       dockerfile: Dockerfile
     image: node_server:latest
-    ports:
-      - "3000:3000"
+    expose:
+      - "3000"
   node1:
     build:
       context: nodejs
       dockerfile: Dockerfile
     image: node_server:latest
-    ports:
-      - "3001:3000"
+    expose:
+      - "3000"
   web0:
     image: nginx:latest
     depends_on:
